@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background-color: beige;
+  font-family: cursive;
+  overflow-x: hidden;
+}
+@keyframes anime {
+  0% {
+    background-color: #15ff00;
+    left: 200px;
+  }
+  20% {
+    background-color: blue;
+    left: 400px;
+  }
+  40% {
+    background-color: blueviolet;
+    left: 600px;
+  }
+  60% {
+    background-color: rgb(159, 202, 2);
+    left: 800px;
+  }
+  80% {
+    background-color: sienna;
+    left: 1000px;
+  }
+  100% {
+    background-color: aqua;
+    left: 1400px;
+  }
+}
+.class6style {
+  position: relative;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+  background-color: aquamarine;
+}
+.product2 {
+  position: relative;
+  left: 60px;
+}
+
+ul {
+  display: flex;
+  gap: 45px;
+  position: relative;
+  left: 500px;
+  list-style: none;
+  margin-bottom: 100px;
+}
+li a {
+  text-decoration: none;
+  color: gold;
+}
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+.product {
+  border: 2px solid white;
+  padding: 1% 0 1% 0;
+  width: 20vw;
+  height: 45vh;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+  margin-bottom: 15vh;
+}
+img {
+  width: 19vw;
+  height: 20vh;
+}
+footer {
+  text-align: center;
+  background-color: green;
+  margin: 0px;
+  margin-top: 210px;
+  padding: 20px;
+}
+p {
+  font-family: cursive;
+}
+
+.product:hover {
+  transform: scale(1.2);
+  background-color: blueviolet;
+}
+
+a:hover {
+  color: blue;
+}
