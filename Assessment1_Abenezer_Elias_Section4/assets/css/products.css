@@ -99,3 +99,69 @@ p {
 a:hover {
   color: blue;
 }
+
+@media (max-width: 1200px) {
+  .product {
+      width: 30vw; 
+      height: auto; 
+  }
+
+  img {
+      width: 25vw;
+  }
+}
+
+
+@media (max-width: 800px) {
+  h1 {
+      font-size: 1.5em; 
+  }
+
+  ul {
+      gap: 2vw; 
+  }
+
+  .product {
+      width: 40vw; 
+  }
+
+  .product-list {
+      gap: 4vw;
+  }
+
+  img {
+      width: 35vw; 
+  }
+
+  footer {
+      font-size: 1em;
+
+  }
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 1.3em; 
+  }
+
+  ul {
+      flex-direction: column; 
+      gap: 2vh; 
+  }
+
+  .product {
+      width: 80vw; 
+  }
+
+  img {
+      width: 80vw; 
+  }
+
+  footer {
+      font-size: 0.9em;
+  }
+}
+
+
+
